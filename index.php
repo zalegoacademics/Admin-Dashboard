@@ -68,7 +68,7 @@ $countAllFemale = mysqli_num_rows($queryEnrolledFemale);
 							</div>
 							<div class="card-body">
 								<span><i class="fa fa-group fa-3x"></i></span>
-								<span class="float-end"><?php echo $countStudents?></span>
+								<span class="float-end"><?php echo $countAllStudents?></span>
 							</div>
 							<div class="card-footer"></div>
 						</div>
